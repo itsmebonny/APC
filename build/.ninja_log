@@ -1,0 +1,10 @@
+# ninja log v5
+1	936	1669388198520714392	CMakeFiles/StudentsFile.dir/Exam.cpp.o	f09402bc8476ec66
+2	1542	1669388199124718446	CMakeFiles/StudentsFile.dir/FileManager.cpp.o	ebc1a422354133aa
+1	1586	1669388199168718741	CMakeFiles/StudentsFile.dir/StudentsData.cpp.o	9de4e7685dc93e4b
+0	2181	1669388199764722741	CMakeFiles/StudentsFile.dir/main.cpp.o	54b3448942ddec39
+2181	2364	1669388199948723976	StudentsFile	f7cbf31705098b18
+0	1343	1669388217848844116	CMakeFiles/StudentsFile.dir/main.cpp.o	54b3448942ddec39
+1344	1453	1669388217960844868	StudentsFile	f7cbf31705098b18
+1	1364	1669388283781286635	CMakeFiles/StudentsFile.dir/main.cpp.o	54b3448942ddec39
+1364	1468	1669388283885287333	StudentsFile	f7cbf31705098b18

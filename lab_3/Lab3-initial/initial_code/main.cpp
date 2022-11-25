@@ -20,8 +20,8 @@ void print_map(std::unordered_map<unsigned, StudentsData> const &m);
 
 int main () {
 
-    string filename_students = "../students.txt";
-    string filename_exams = "../exams.txt";
+    string filename_students = "/home/bonni/Documents/APC/lab_3/Lab3-initial/initial_code/students.txt";
+    string filename_exams = "/home/bonni/Documents/APC/lab_3/Lab3-initial/initial_code/exams.txt";
 
     students_type students;
 
@@ -59,8 +59,9 @@ int main () {
     print_map(students);
     // compute and print average of students' grades
     
-    /* Your code goes here */
-
+    for(auto const &pair: students){
+        std::cout << pair.first << ": " << pair.second.average_grade() << std::endl;
+    }
 }
 
 void add_students (const table_type& fields, students_type& students) {
