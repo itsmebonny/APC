@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/Challenge1-Determinant_BASE/build/CMakeFiles/Challenge1-Determinant_BASE.dir
+/home/bonni/Documents/APC/Challenge1-Determinant_BASE/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/Challenge1-Determinant_BASE/build/CMakeFiles/rebuild_cache.dir

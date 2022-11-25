@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build/CMakeFiles/StudentsFile.dir
+/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build/CMakeFiles/rebuild_cache.dir

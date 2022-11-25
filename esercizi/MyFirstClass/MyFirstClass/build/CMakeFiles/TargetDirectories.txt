@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/build/CMakeFiles/MyFirstClass.dir
+/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/build/CMakeFiles/rebuild_cache.dir

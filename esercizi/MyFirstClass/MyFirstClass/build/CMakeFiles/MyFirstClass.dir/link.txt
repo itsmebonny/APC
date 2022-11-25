@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/MyFirstClass.dir/main.cpp.o CMakeFiles/MyFirstClass.dir/X.cpp.o -o MyFirstClass 

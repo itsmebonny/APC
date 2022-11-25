@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/StudentsFile.dir/main.cpp.o -c /home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/main.cpp",
+  "file": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/StudentsFile.dir/Exam.cpp.o -c /home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/Exam.cpp",
+  "file": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/Exam.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/StudentsFile.dir/StudentsData.cpp.o -c /home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/StudentsData.cpp",
+  "file": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/StudentsData.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/StudentsFile.dir/FileManager.cpp.o -c /home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/FileManager.cpp",
+  "file": "/home/bonni/Documents/APC/lab3/Lab3-initial/initial_code/FileManager.cpp"
+}
+]

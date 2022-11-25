@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Gradient_Descent.dir/main.cpp.o -c /home/bonni/Documents/APC/Esercizi/Gradient_Descent/main.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Gradient_Descent.dir/Function.cpp.o -c /home/bonni/Documents/APC/Esercizi/Gradient_Descent/Function.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/Function.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Gradient_Descent.dir/FunctionMin.cpp.o -c /home/bonni/Documents/APC/Esercizi/Gradient_Descent/FunctionMin.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/Gradient_Descent/FunctionMin.cpp"
+}
+]

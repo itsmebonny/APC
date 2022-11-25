@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/Challenge1-Determinant_BASE/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Challenge1-Determinant_BASE.dir/main.cpp.o -c /home/bonni/Documents/APC/Challenge1-Determinant_BASE/main.cpp",
+  "file": "/home/bonni/Documents/APC/Challenge1-Determinant_BASE/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/Challenge1-Determinant_BASE/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Challenge1-Determinant_BASE.dir/Matrix.cpp.o -c /home/bonni/Documents/APC/Challenge1-Determinant_BASE/Matrix.cpp",
+  "file": "/home/bonni/Documents/APC/Challenge1-Determinant_BASE/Matrix.cpp"
+}
+]

@@ -1,0 +1,13 @@
+# ninja log v5
+0	416	1666075294711649070	CMakeFiles/Gradient_Descent.dir/main.cpp.o	6116c5ae5f159396
+417	537	1666075294831649074	Gradient_Descent	2caf21ae43c0ead3
+1	576	1666076489103690575	CMakeFiles/Gradient_Descent.dir/Function.cpp.o	7df7e19ac4d7eb2a
+1	472	1666076499131690923	CMakeFiles/Gradient_Descent.dir/main.cpp.o	6116c5ae5f159396
+1	840	1666078051835744879	CMakeFiles/Gradient_Descent.dir/Function.cpp.o	7df7e19ac4d7eb2a
+1	920	1666078051915744882	CMakeFiles/Gradient_Descent.dir/FunctionMin.cpp.o	5a3177ca4bcb3ef9
+920	1040	1666078052035744886	Gradient_Descent	cddf9322dc70c6e0
+2	550	1666079026447778747	CMakeFiles/Gradient_Descent.dir/Function.cpp.o	7df7e19ac4d7eb2a
+2	765	1666079026663778754	CMakeFiles/Gradient_Descent.dir/FunctionMin.cpp.o	5a3177ca4bcb3ef9
+765	877	1666079026771778758	Gradient_Descent	cddf9322dc70c6e0
+1	602	1666079731891803261	CMakeFiles/Gradient_Descent.dir/FunctionMin.cpp.o	5a3177ca4bcb3ef9
+602	722	1666079732007803265	Gradient_Descent	cddf9322dc70c6e0

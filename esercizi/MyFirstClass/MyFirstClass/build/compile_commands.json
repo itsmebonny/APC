@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/MyFirstClass.dir/main.cpp.o -c /home/bonni/Documents/APC/MyFirstClass/MyFirstClass/main.cpp",
+  "file": "/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/build",
+  "command": "/usr/bin/g++   -g -std=gnu++11 -o CMakeFiles/MyFirstClass.dir/X.cpp.o -c /home/bonni/Documents/APC/MyFirstClass/MyFirstClass/X.cpp",
+  "file": "/home/bonni/Documents/APC/MyFirstClass/MyFirstClass/X.cpp"
+}
+]

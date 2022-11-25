@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build/CMakeFiles/LibraryInitialCode.dir
+/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build/CMakeFiles/rebuild_cache.dir

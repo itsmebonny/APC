@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/LibraryInitialCode.dir/main.cpp.o -c /home/bonni/Documents/APC/Esercizi/LibraryInitialCode/main.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/LibraryInitialCode.dir/Book.cpp.o -c /home/bonni/Documents/APC/Esercizi/LibraryInitialCode/Book.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/Book.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/LibraryInitialCode.dir/Library.cpp.o -c /home/bonni/Documents/APC/Esercizi/LibraryInitialCode/Library.cpp",
+  "file": "/home/bonni/Documents/APC/Esercizi/LibraryInitialCode/Library.cpp"
+}
+]

@@ -1,0 +1,7 @@
+# ninja log v5
+0	426	1665391513191322867	CMakeFiles/Library.cpp.dir/Book.cpp.o	3791d3918fc08f2c
+0	481	1665391513247322839	CMakeFiles/Library.cpp.dir/main.cpp.o	24f78d2f38a82fc1
+2	333	1665394141566072273	CMakeFiles/LibraryInitialCode.dir/Book.cpp.o	9e13bbf0c8aa374c
+1	423	1665408342387786171	CMakeFiles/LibraryInitialCode.dir/main.cpp.o	45cb04b20d78602a
+1	452	1665408315547798941	CMakeFiles/LibraryInitialCode.dir/Library.cpp.o	2788e8164bdce99d
+423	536	1665408342499786117	LibraryInitialCode	26c9dacf3e438ed5

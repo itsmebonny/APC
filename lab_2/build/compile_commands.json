@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/lab2/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab2/. -Wall -Wextra -Wconversion -Wsign-conversion -g -std=gnu++11 -o CMakeFiles/lab2.dir/main.cpp.o -c /home/bonni/Documents/APC/lab2/main.cpp",
+  "file": "/home/bonni/Documents/APC/lab2/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab2/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab2/. -Wall -Wextra -Wconversion -Wsign-conversion -g -std=gnu++11 -o CMakeFiles/lab2.dir/social_network.cpp.o -c /home/bonni/Documents/APC/lab2/social_network.cpp",
+  "file": "/home/bonni/Documents/APC/lab2/social_network.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab2/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab2/. -Wall -Wextra -Wconversion -Wsign-conversion -g -std=gnu++11 -o CMakeFiles/lab2.dir/user.cpp.o -c /home/bonni/Documents/APC/lab2/user.cpp",
+  "file": "/home/bonni/Documents/APC/lab2/user.cpp"
+}
+]
