@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/DocumentStore.dir/main.cpp.o -c /home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/main.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/DocumentStore.dir/DocumentStore.cpp.o -c /home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/DocumentStore.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/DocumentStore.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/DocumentStore.dir/Document.cpp.o -c /home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/Document.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/DocumentStore/initial_code/Document.cpp"
+}
+]
