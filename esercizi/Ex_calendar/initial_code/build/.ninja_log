@@ -1,0 +1,13 @@
+# ninja log v5
+6	323	1669740046342994404	CMakeFiles/Calendars_initial.dir/Event.cpp.o	ad283b85f325a6fc
+0	464	1669740146223719257	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+1	498	1669740481642162159	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+0	470	1669740510034369398	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+1	491	1669740510054369543	CMakeFiles/Calendars_initial.dir/main.cpp.o	f4baa562002e861
+1	411	1669740583126903170	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+3	432	1669740583146903316	CMakeFiles/Calendars_initial.dir/main.cpp.o	f4baa562002e861
+2	469	1669740909825265117	CMakeFiles/Calendars_initial.dir/main.cpp.o	f4baa562002e861
+1	362	1669740958521615522	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+362	471	1669740958629616299	Calendars_initial	48c620d05208f098
+1	355	1669740962413643550	CMakeFiles/Calendars_initial.dir/Calendar.cpp.o	a831d54c413735ae
+355	461	1669740962517644299	Calendars_initial	48c620d05208f098
