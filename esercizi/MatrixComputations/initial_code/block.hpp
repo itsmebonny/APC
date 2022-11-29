@@ -28,6 +28,7 @@ class Block
 
         double & operator () (std::size_t i, std::size_t j);
         double operator () (std::size_t i, std::size_t j) const;
+        
 };
 
 #endif /* BLOCK_H_ */

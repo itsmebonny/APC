@@ -19,7 +19,7 @@ class BlockMatrix: public Matrix
 
         virtual double operator () (std::size_t i, std::size_t j) const override;
         virtual double& operator () (std::size_t i, std::size_t j) override;
-
+        
         virtual ~BlockMatrix() = default;
 };
 
