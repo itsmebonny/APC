@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/. -g -std=gnu++11 -o CMakeFiles/MatrixComputationInitialCode.dir/block.cpp.o -c /home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/block.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/block.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/. -g -std=gnu++11 -o CMakeFiles/MatrixComputationInitialCode.dir/block_matrix.cpp.o -c /home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/block_matrix.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/block_matrix.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/. -g -std=gnu++11 -o CMakeFiles/MatrixComputationInitialCode.dir/dense_matrix.cpp.o -c /home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/dense_matrix.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/dense_matrix.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/. -g -std=gnu++11 -o CMakeFiles/MatrixComputationInitialCode.dir/main.cpp.o -c /home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/main.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/. -g -std=gnu++11 -o CMakeFiles/MatrixComputationInitialCode.dir/matrix.cpp.o -c /home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/matrix.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/matrix.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build/CMakeFiles/MatrixComputationInitialCode.dir
+/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/esercizi/MatrixComputations/initial_code/build/CMakeFiles/rebuild_cache.dir
