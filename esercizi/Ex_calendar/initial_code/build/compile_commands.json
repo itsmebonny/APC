@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/. -g -std=gnu++11 -o CMakeFiles/Calendars_initial.dir/Calendar.cpp.o -c /home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/Calendar.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/Calendar.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/. -g -std=gnu++11 -o CMakeFiles/Calendars_initial.dir/Event.cpp.o -c /home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/Event.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/Event.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/. -g -std=gnu++11 -o CMakeFiles/Calendars_initial.dir/main.cpp.o -c /home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/main.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/Ex_calendar/initial_code/main.cpp"
+}
+]
