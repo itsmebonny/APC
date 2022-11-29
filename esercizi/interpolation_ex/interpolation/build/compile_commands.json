@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/Interpolation.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/Interpolation.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/Interpolation.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/LinearInterpolation.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/LinearInterpolation.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/LinearInterpolation.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/main.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/main.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/NearestNeighborInterpolation.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/NearestNeighborInterpolation.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/NearestNeighborInterpolation.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/Point.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/Point.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/Point.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/. -g -std=gnu++11 -o CMakeFiles/InterpolationInitialCode.dir/StepwiseInterpolation.cpp.o -c /home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/StepwiseInterpolation.cpp",
+  "file": "/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/StepwiseInterpolation.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build/CMakeFiles/InterpolationInitialCode.dir
+/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/esercizi/interpolation_ex/interpolation/build/CMakeFiles/rebuild_cache.dir
