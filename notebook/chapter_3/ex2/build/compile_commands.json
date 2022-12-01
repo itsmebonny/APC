@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/SalesData.dir/main.cpp.o -c /home/bonni/Documents/APC/notebook/chapter_3/ex2/main.cpp",
+  "file": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/SalesData.dir/SalesData.cpp.o -c /home/bonni/Documents/APC/notebook/chapter_3/ex2/SalesData.cpp",
+  "file": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/SalesData.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/SalesData.dir/SalesArchive.cpp.o -c /home/bonni/Documents/APC/notebook/chapter_3/ex2/SalesArchive.cpp",
+  "file": "/home/bonni/Documents/APC/notebook/chapter_3/ex2/SalesArchive.cpp"
+}
+]

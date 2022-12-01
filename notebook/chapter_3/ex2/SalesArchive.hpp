@@ -11,6 +11,7 @@ public:
     SalesArchive(void) = default;
     SalesArchive(std::vector<SalesData> a):archive(a){};
     SalesArchive reduce_by_book(void) const;
+    void print_archive (void) const;
 };
 #endif //SALESARCHIVE_H
 
