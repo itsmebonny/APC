@@ -1,0 +1,5 @@
+# ninja log v5
+608	746	1669911751505487072	SalesData	ac24f511aa3fe1ad
+1	608	1669911751365486230	CMakeFiles/SalesData.dir/SalesArchive.cpp.o	e2e5736672c15d6f
+0	468	1669907397206142652	CMakeFiles/SalesData.dir/SalesData.cpp.o	d692dc9c5319c7db
+0	516	1669911269670589321	CMakeFiles/SalesData.dir/main.cpp.o	8d3ac5002e7a4b3e
