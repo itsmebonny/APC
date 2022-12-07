@@ -60,6 +60,9 @@ void Column::print(std::string name)const{
        }
 
 }
+void Column::erase_item(size_t n){
+    this->values.erase(n);
+}
 
 
 

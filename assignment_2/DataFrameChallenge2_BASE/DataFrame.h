@@ -8,6 +8,7 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+#include <cmath>
 
 
 #include "Column.h"
@@ -71,6 +72,7 @@ public:
                     );
 
     void print(void) const;
+    void erase_row(size_t n);
     dimension getDimension() const;
 
 

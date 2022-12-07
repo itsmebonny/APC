@@ -146,19 +146,95 @@ void DataFrame::print(void) const {
 
 DataFrame
 DataFrame::hstack(DataFrame &otherDataFrame){
-    // YOUR CODE HERE
-    // only to allow RUN: (please write your own code)
-    return DataFrame{};
+    DataFrame CorniceDati;
+    
+    auto begin = this->dataFrameData.begin();
+    size_t i = 0;
+    std::vector<Key> key = addPrefix(this->getColumnNames(), PREFIX1);
+    while(begin != this->dataFrameData.end())
+    {
+        CorniceDati.addColumn(key.at(i), begin->second);
+        begin++;
+        i++;
+    }
+    unsigned columns = otherDataFrame.getDimension().cols;
+    
+    for(size_t i = 0; i < columns; i++)
+    {
+        CorniceDati.addColumn(addPrefix(otherDataFrame.getColumnNames(), PREFIX2).at(i), otherDataFrame.getColumn(otherDataFrame.getColumnNames().at(i)));
+    }
+    
+    return CorniceDati;
 
 }
 
 DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::string onColOfOther){
-    // YOUR CODE HERE
-    // only to allow RUN: (please write your own code)
-    return DataFrame{};
+    DataFrame CorniceDatiSQL, c1, c2;
+    Column colonna1 = this->getColumn(onMyCol), colonna2 = otherDataFrame.getColumn(onColOfOther), colonnina, colonnona;
+    if(colonna1.height() > colonna2.height()){
+        colonnina = colonna2;
+        colonnona = colonna1;
+    }
+    else{
+        colonnona = colonna2;
+        colonnina = colonna1;
+    }
+    int found = 0;
+    unsigned num_swap = 0;
+    for (size_t i = 0; i < colonnona.height(); i++)
+    {
+        if (colonnina.values.find(colonnona.values.at(i)) != colonnina.values.end())
+        {   
+            auto begin = this->dataFrameData.begin();
+            auto begin2 = otherDataFrame.dataFrameData.begin();
+
+            while (begin != this->dataFrameData.end())
+            {   
+                if (i > colonnina.height())
+                    found = 0;
+                else
+                    found = i;
+                begin->second.insert(begin->second.values.at(found), num_swap);
+                begin++;
+            }
+            while (begin2 != otherDataFrame.dataFrameData.end())
+            {   
+                if (i > colonnona.height())
+                    found = 0;
+                else
+                    found = i;
+
+                begin2->second.insert(begin2->second.values.at(found), num_swap);
+                begin2++;
+            }
+            num_swap++;
+            
+        }
+        
+    }
+    
+    for (size_t i = num_swap; i < colonnina.height(); i++)
+    {
+        this->erase_row(i);
+    }
+        for (size_t i = num_swap; i < colonnona.height(); i++)
+    {
+        otherDataFrame.erase_row(i);
+    }
+    CorniceDatiSQL = this->hstack(otherDataFrame);
+    return CorniceDatiSQL;
 }
 
-
+void DataFrame::erase_row(size_t n){
+    auto begin = this->dataFrameData.begin();
+    while (begin != this->dataFrameData.end())
+    {
+        begin->second.erase_item(n);
+        begin++;
+    }
+    
+    
+}
 // ancillary code
 
 DataFrame::DataFrame(std::vector<std::string> columnsNames)
@@ -230,4 +306,3 @@ std::vector<std::string> addPrefix(const std::vector<std::string> & to, std::str
     );
     return out;
 }
-
