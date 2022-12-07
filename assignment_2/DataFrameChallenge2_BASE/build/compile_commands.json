@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/assignment2.dir/Column.cpp.o -c /home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/Column.cpp",
+  "file": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/Column.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/assignment2.dir/checkChallenge.cpp.o -c /home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/checkChallenge.cpp",
+  "file": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/checkChallenge.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/assignment2.dir/main.cpp.o -c /home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/main.cpp",
+  "file": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/main.cpp"
+},
+{
+  "directory": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/assignment2.dir/DataFrame.cpp.o -c /home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/DataFrame.cpp",
+  "file": "/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/DataFrame.cpp"
+}
+]

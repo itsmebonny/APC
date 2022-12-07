@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/lab_4/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab_4/. -g -std=gnu++14 -o CMakeFiles/ArcadePlayers.dir/main.cc.o -c /home/bonni/Documents/APC/lab_4/main.cc",
+  "file": "/home/bonni/Documents/APC/lab_4/main.cc"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab_4/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab_4/. -g -std=gnu++14 -o CMakeFiles/ArcadePlayers.dir/Player.cc.o -c /home/bonni/Documents/APC/lab_4/Player.cc",
+  "file": "/home/bonni/Documents/APC/lab_4/Player.cc"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab_4/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab_4/. -g -std=gnu++14 -o CMakeFiles/ArcadePlayers.dir/RandomPlayerGenerator.cc.o -c /home/bonni/Documents/APC/lab_4/RandomPlayerGenerator.cc",
+  "file": "/home/bonni/Documents/APC/lab_4/RandomPlayerGenerator.cc"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab_4/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab_4/. -g -std=gnu++14 -o CMakeFiles/ArcadePlayers.dir/search.cc.o -c /home/bonni/Documents/APC/lab_4/search.cc",
+  "file": "/home/bonni/Documents/APC/lab_4/search.cc"
+},
+{
+  "directory": "/home/bonni/Documents/APC/lab_4/build",
+  "command": "/usr/bin/g++ -I/home/bonni/Documents/APC/lab_4/. -g -std=gnu++14 -o CMakeFiles/ArcadePlayers.dir/timing.cc.o -c /home/bonni/Documents/APC/lab_4/timing.cc",
+  "file": "/home/bonni/Documents/APC/lab_4/timing.cc"
+}
+]

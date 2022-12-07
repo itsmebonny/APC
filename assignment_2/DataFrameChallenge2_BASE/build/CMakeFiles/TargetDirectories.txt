@@ -1,0 +1,3 @@
+/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build/CMakeFiles/assignment2.dir
+/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build/CMakeFiles/edit_cache.dir
+/home/bonni/Documents/APC/assignment_2/DataFrameChallenge2_BASE/build/CMakeFiles/rebuild_cache.dir
