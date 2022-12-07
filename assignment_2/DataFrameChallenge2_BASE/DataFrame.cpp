@@ -181,19 +181,22 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
     }
     int found = 0;
     unsigned num_swap = 0;
+    colonnina.print(onMyCol);
+    colonnona.print(onColOfOther);
     for (size_t i = 0; i < colonnona.height(); i++)
     {
+        std::cout << "Looking for: "<< colonnona.values.at(i) << std::endl;
         if (colonnina.values.find(colonnona.values.at(i)) != colonnina.values.end())
         {   
             auto begin = this->dataFrameData.begin();
             auto begin2 = otherDataFrame.dataFrameData.begin();
-
             while (begin != this->dataFrameData.end())
             {   
                 if (i > colonnina.height())
                     found = 0;
                 else
                     found = i;
+                
                 begin->second.insert(begin->second.values.at(found), num_swap);
                 begin++;
             }
@@ -203,7 +206,6 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
                     found = 0;
                 else
                     found = i;
-
                 begin2->second.insert(begin2->second.values.at(found), num_swap);
                 begin2++;
             }
