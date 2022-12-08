@@ -169,61 +169,54 @@ DataFrame::hstack(DataFrame &otherDataFrame){
 }
 
 DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::string onColOfOther){
-    DataFrame CorniceDatiSQL, c1, c2;
-    Column colonna1 = this->getColumn(onMyCol), colonna2 = otherDataFrame.getColumn(onColOfOther), colonnina, colonnona;
-    if(colonna1.height() > colonna2.height()){
-        colonnina = colonna2;
-        colonnona = colonna1;
-    }
-    else{
-        colonnona = colonna2;
-        colonnina = colonna1;
-    }
-    int found = 0;
+    DataFrame CorniceDatiSQL, c1 = *this, c2 = otherDataFrame;
+    Column colonnina = this->getColumn(onMyCol), colonnona = otherDataFrame.getColumn(onColOfOther);
     unsigned num_swap = 0;
-    colonnina.print(onMyCol);
-    colonnona.print(onColOfOther);
     for (size_t i = 0; i < colonnona.height(); i++)
     {
-        std::cout << "Looking for: "<< colonnona.values.at(i) << std::endl;
-        if (colonnina.values.find(colonnona.values.at(i)) != colonnina.values.end())
+        for (size_t j = 0; j < colonnina.height(); j++)
         {   
-            auto begin = this->dataFrameData.begin();
-            auto begin2 = otherDataFrame.dataFrameData.begin();
+            if(colonnina.values.at(j) == colonnona.values.at(i))
+            {
+            auto begin = this->dataFrameData.begin(), small_begin = c1.dataFrameData.begin();
+            auto begin2 = otherDataFrame.dataFrameData.begin(), small_begin2 = c2.dataFrameData.begin();
             while (begin != this->dataFrameData.end())
             {   
-                if (i > colonnina.height())
-                    found = 0;
-                else
-                    found = i;
-                
-                begin->second.insert(begin->second.values.at(found), num_swap);
-                begin++;
+                try
+                {
+                    small_begin->second.insert(begin->second.values.at(j), num_swap);
+                    small_begin++;
+                    begin++;}
+                catch (std::out_of_range& e){
+                    small_begin2->second.insert(0, num_swap);
+                    small_begin++;
+                    begin++;
+                }
             }
             while (begin2 != otherDataFrame.dataFrameData.end())
-            {   
-                if (i > colonnona.height())
-                    found = 0;
-                else
-                    found = i;
-                begin2->second.insert(begin2->second.values.at(found), num_swap);
-                begin2++;
+            {   try{
+                    small_begin2->second.insert(begin2->second.values.at(i), num_swap);
+                    small_begin2++;
+                    begin2++;
+                    }
+                catch (std::out_of_range& e){
+                    small_begin2->second.insert(0, num_swap);
+                    small_begin2++;
+                    begin2++;
+                }
             }
             num_swap++;
-            
+            }
         }
         
     }
+    CorniceDatiSQL = c1.hstack(c2);
+    for (size_t i = num_swap; i < CorniceDatiSQL.getDimension().rows; i++)
+    {
+        CorniceDatiSQL.erase_row(i);
+    }
     
-    for (size_t i = num_swap; i < colonnina.height(); i++)
-    {
-        this->erase_row(i);
-    }
-        for (size_t i = num_swap; i < colonnona.height(); i++)
-    {
-        otherDataFrame.erase_row(i);
-    }
-    CorniceDatiSQL = this->hstack(otherDataFrame);
+    std::cout << CorniceDatiSQL.getDimension().rows << " " << num_swap << std::endl;
     return CorniceDatiSQL;
 }
 
