@@ -215,8 +215,6 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
     {
         CorniceDatiSQL.erase_row(i);
     }
-    
-    std::cout << CorniceDatiSQL.getDimension().rows << " " << num_swap << std::endl;
     return CorniceDatiSQL;
 }
 
