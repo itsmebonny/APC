@@ -176,40 +176,45 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
     {
         for (size_t j = 0; j < colonnina.height(); j++)
         {   
-            if(colonnina.values.at(j) == colonnona.values.at(i))
-            {
-            auto begin = this->dataFrameData.begin(), small_begin = c1.dataFrameData.begin();
-            auto begin2 = otherDataFrame.dataFrameData.begin(), small_begin2 = c2.dataFrameData.begin();
-            while (begin != this->dataFrameData.end())
-            {   
-                try
-                {
-                    small_begin->second.insert(begin->second.values.at(j), num_swap);
-                    small_begin++;
-                    begin++;}
-                catch (std::out_of_range& e){
-                    small_begin2->second.insert(0, num_swap);
-                    small_begin++;
-                    begin++;
-                }
-            }
-            while (begin2 != otherDataFrame.dataFrameData.end())
-            {   try{
-                    small_begin2->second.insert(begin2->second.values.at(i), num_swap);
-                    small_begin2++;
-                    begin2++;
+            try{
+                if(colonnina.values.at(j) == colonnona.values.at(i))
+                {   
+                    auto begin = this->dataFrameData.begin(), small_begin = c1.dataFrameData.begin();
+                    auto begin2 = otherDataFrame.dataFrameData.begin(), small_begin2 = c2.dataFrameData.begin();
+                    while (begin != this->dataFrameData.end()){   
+                        try{
+                            small_begin->second.insert(begin->second.values.at(j), num_swap);
+                            small_begin++;
+                            begin++;}
+                        catch (std::out_of_range){
+                            small_begin->second.insert(0, num_swap);
+                            small_begin++;
+                            begin++;}
                     }
-                catch (std::out_of_range& e){
-                    small_begin2->second.insert(0, num_swap);
-                    small_begin2++;
-                    begin2++;
+                    while (begin2 != otherDataFrame.dataFrameData.end()){   
+                        try{
+                            small_begin2->second.insert(begin2->second.values.at(i), num_swap);
+                            small_begin2++;
+                            begin2++;
+                            }
+                        catch (std::out_of_range){
+                            small_begin2->second.insert(0, num_swap);
+                            small_begin2++;
+                            begin2++;
+                        }
+                    }
+                    num_swap++;
                 }
+                
+
             }
-            num_swap++;
+            catch(std::out_of_range){
+                //do nothing
+            }
             }
         }
         
-    }
+    
     CorniceDatiSQL = c1.hstack(c2);
     for (size_t i = num_swap; i < CorniceDatiSQL.getDimension().rows; i++)
     {
@@ -222,7 +227,7 @@ void DataFrame::erase_row(size_t n){
     auto begin = this->dataFrameData.begin();
     while (begin != this->dataFrameData.end())
     {
-        begin->second.erase_item(n);
+        begin->second.values.erase(n);
         begin++;
     }
     

@@ -55,14 +55,14 @@ int main() {
   std::cout << (Arcade::binary_search(player_vec, player_ok_username) ? "Found!\n" : "Not found\n");
   std::cout << (Arcade::binary_search(player_vec, player_ko_username) ? "Found!\n" : "Not found\n");
   std::cout << "*********stl binary search on vector*********" << std::endl;
-  //std::cout << (Arcade::stl_binary_search(player_vec, player_ok_username) ? "Found!\n" : "Not found\n");
-  //std::cout << (Arcade::stl_binary_search(player_vec, player_ko_username) ? "Found!\n" : "Not found\n");
+  std::cout << (Arcade::stl_binary_search(player_vec, player_ok_username) ? "Found!\n" : "Not found\n");
+  std::cout << (Arcade::stl_binary_search(player_vec, player_ko_username) ? "Found!\n" : "Not found\n");
   std::cout << "*********search on set*********" << std::endl;
   std::cout << (Arcade::set_search(player_set, player_ok_username) ? "Found!\n" : "Not found\n");
   std::cout << (Arcade::set_search(player_set, player_ko_username) ? "Found!\n" : "Not found\n");
   std::cout << "*********search on map*********" << std::endl;
-  //std::cout << (Arcade::map_search(player_map, player_ok_username) ? "Found!\n" : "Not found\n");
-  //std::cout << (Arcade::map_search(player_map, player_ko_username) ? "Found!\n" : "Not found\n");
+  std::cout << (Arcade::map_search(player_map, player_ok_username) ? "Found!\n" : "Not found\n");
+  std::cout << (Arcade::map_search(player_map, player_ko_username) ? "Found!\n" : "Not found\n");
 
   return 0;
 }

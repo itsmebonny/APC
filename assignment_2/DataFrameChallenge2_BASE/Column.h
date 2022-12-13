@@ -33,8 +33,6 @@ public:
     size_t height() const;
     void insert(const Value value, const size_t atRow);
     void print(std::string name) const;
-    void erase_item(size_t n);
-    
 };
 
 
