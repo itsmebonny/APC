@@ -187,7 +187,7 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
                             small_begin++;
                             begin++;}
                         catch (std::out_of_range){
-                            small_begin->second.insert(0, num_swap);
+                            small_begin->second.values.erase(j);
                             small_begin++;
                             begin++;}
                     }
@@ -198,7 +198,7 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
                             begin2++;
                             }
                         catch (std::out_of_range){
-                            small_begin2->second.insert(0, num_swap);
+                            small_begin2->second.values.erase(i);
                             small_begin2++;
                             begin2++;
                         }
@@ -220,6 +220,12 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
     {
         CorniceDatiSQL.erase_row(i);
     }
+    std::vector<std::string> col_names = CorniceDatiSQL.getColumnNames();
+    for (size_t i = 0; i < CorniceDatiSQL.getDimension().cols; i++)
+    {
+        CorniceDatiSQL.getColumn(col_names.at(i)).print(col_names.at(i));
+    }
+    
     return CorniceDatiSQL;
 }
 

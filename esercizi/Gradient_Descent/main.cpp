@@ -8,7 +8,7 @@ using std::endl;
 
 int main()
 {
-  Function f ({1., 1., 2., -10., 2.});
+  Function f ({1., 1.});
   std::cout << "Function: " << std::endl;
   f.print();
   std::cout << "Function: " << f.eval (1) << std::endl;

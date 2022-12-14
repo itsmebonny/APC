@@ -14,7 +14,7 @@ df_1.setColumn("C", Column("4,5"));
 
 DataFrame df_2("D E F G");
 df_2.setColumn("D", Column("6,1,-1,1"));
-df_2.setColumn("E", Column("7,10,0,0"));
+df_2.setColumn("E", Column("7,10,,"));
 df_2.setColumn("F", Column("8,11,0,100"));
 df_2.setColumn("G", Column("9,12,0,1000"));
 
