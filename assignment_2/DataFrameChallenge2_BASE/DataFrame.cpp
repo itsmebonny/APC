@@ -220,12 +220,7 @@ DataFrame DataFrame::join(DataFrame &otherDataFrame, std::string onMyCol, std::s
     {
         CorniceDatiSQL.erase_row(i);
     }
-    std::vector<std::string> col_names = CorniceDatiSQL.getColumnNames();
-    for (size_t i = 0; i < CorniceDatiSQL.getDimension().cols; i++)
-    {
-        CorniceDatiSQL.getColumn(col_names.at(i)).print(col_names.at(i));
-    }
-    
+   
     return CorniceDatiSQL;
 }
 
