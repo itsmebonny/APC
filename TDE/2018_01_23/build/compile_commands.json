@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/TDE/2018_01_23/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/TDE.dir/main.cpp.o -c /home/bonni/Documents/APC/TDE/2018_01_23/main.cpp",
+  "file": "/home/bonni/Documents/APC/TDE/2018_01_23/main.cpp"
+}
+]

@@ -66,15 +66,26 @@ public:
                 for (auto begin = *i; begin != normal_lane.end(); begin++){
                     if (*begin > s)
                     {
-                        begin--;
-                        normal_lane.insert(begin, s);
+                        normal_lane.insert(--begin, s);
+                        begin = normal_lane.end();
+                        i = express_lane.end();
+                        std::cout << "Nested 1" << std::endl;
                     }
                 } 
-                    normal_lane.push_back(s);
-                }
-            
-            else{
                 normal_lane.push_back(s);
+                i = express_lane.end();
+
+                }
+            else{
+                for (auto begin = normal_lane.begin(); begin != normal_lane.end(); begin++){
+                    if (*begin > s)
+                    {
+                        normal_lane.insert(--begin, s);
+                        begin = normal_lane.end();
+                        i = express_lane.end();
+                        std::cout << "Nested 2" << std::endl;
+                    }
+                } 
         }}
     };
     void print(void){
