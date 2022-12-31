@@ -1,0 +1,14 @@
+M:
+2 x 2 row-major
+1 2
+3 4
+
+N:
+2 x 2 col-major
+1 3
+2 4
+
+M after order switch:
+2 x 2 col-major
+1 3
+2 4
