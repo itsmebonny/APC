@@ -6,7 +6,7 @@
 
 double matrix_max(const Matrix & M){
 	//--------YOUR matrix_max CODE BEGINS HERE (optional helper function)---------
-	double max = 0;
+	double max = M.getElem(0,0);
 
 	for (size_t i = 0; i < M.getNcols(); i++)
 	{
