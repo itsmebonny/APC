@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bonni/Documents/APC/TDE/2020_07_20/ex1/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/BLORP.dir/main.cpp.o -c /home/bonni/Documents/APC/TDE/2020_07_20/ex1/main.cpp",
+  "file": "/home/bonni/Documents/APC/TDE/2020_07_20/ex1/main.cpp"
+}
+]
